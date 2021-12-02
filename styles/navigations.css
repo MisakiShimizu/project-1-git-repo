@@ -25,3 +25,7 @@ nav li {
 nav a {
   color: #333333;
 }
+
+nav i {
+  font-size: 1rem;
+}

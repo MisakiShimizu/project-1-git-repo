@@ -6,4 +6,49 @@ $color-four: #C3DAB7;
 @import "partials/setup.scss";
 @import "partials/typography.scss";
 @import "partials/general.scss";
-@import "partials/navigations.scss"
+@import "partials/navigations.scss";
+
+// HOMEPAGE
+
+// HEADER
+header {
+    background-image: url(../../assets/home-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.line-container {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+span.line {
+    display: block;
+    height: 190px;
+    border-left: 1px solid $color-one;
+}
+
+.section-home-1 {
+    background-color: $color-four;
+}
+.image-container-home {
+    width: 100%;
+}
+img[src="./assets/home-circle-text.png"] {
+    position: relative;
+    left: 200px;
+    z-index: 1;
+    width:200px;
+    height:200px;
+}
+img[src="./assets/home-2.jpeg"] {
+    width: 50%;
+    position: relative;
+    left:300px;
+    bottom:120px;
+}
+.section-home-1-container {
+    display: flex;
+}
