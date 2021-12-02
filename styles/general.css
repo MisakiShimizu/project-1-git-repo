@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.wrapper {
+  width: 85%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 ul {
   margin: 0;
   padding: 0;

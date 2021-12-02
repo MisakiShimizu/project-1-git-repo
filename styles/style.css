@@ -239,6 +239,12 @@ p {
   padding: 0;
 }
 
+.wrapper {
+  width: 85%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -250,12 +256,16 @@ a {
 }
 
 nav {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 .nav-one,

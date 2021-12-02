@@ -1,0 +1,23 @@
+$color-one: #333333;
+$color-two: #FFFFFF;
+$color-three: #F6F6F6;
+$color-four: #C3DAB7;
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-one,
+.nav-two {
+    display:flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: $color-one;
+}

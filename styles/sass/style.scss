@@ -6,20 +6,4 @@ $color-four: #C3DAB7;
 @import "partials/setup.scss";
 @import "partials/typography.scss";
 @import "partials/general.scss";
-
-nav {
-    display:inline-flex;
-    justify-content: space-between;
-}
-.nav-one,
-.nav-two {
-    display:flex;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    color: $color-one;
-}
+@import "partials/navigations.scss"
