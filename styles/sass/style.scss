@@ -35,19 +35,22 @@ span.line {
 .section-home-1 {
     background-color: $color-four;
 }
+.image-container-home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
 img[src="./assets/home-circle-text.png"] {
     position: relative;
-    left: 200px;
     z-index: 1;
-    width:200px;
-    height:200px;
-    top: 60px;
+    width: 25%;
+    bottom: 220px;
 }
 img[src="./assets/home-2.jpeg"] {
-    width: 50%;
+    width: 100%;
     position: relative;
-    left:300px;
-    bottom:60px;
+    right: 100px;
 }
 .section-home-1-container {
     display: flex;
@@ -137,6 +140,9 @@ img[src="./assets/home-2.jpeg"] {
 .section-four {
     padding: 0 0 80px 0;
 }
+.section-four h3 {
+    margin-top: 50px;
+}
 .section-4-line {
     display: flex;
     justify-content: center;
@@ -155,12 +161,133 @@ img[src="./assets/home-2.jpeg"] {
     flex-wrap: wrap;
 }
 .team-container li {
-    width: calc(100% / 5 - 20px);
-    margin: 0 10px;
+    width: calc(100% / 5 - 2px);
+    margin: 10px;
 }
 .team-container li:first-of-type {
     text-align: left;
-    width:50%;
+    width: 40%;
     background-color: $color-three;
     padding: 50px 10px 30px 10px;
+}
+.team-container li:last-of-type {
+    align-self: center;
+}
+.team-container li:last-of-type h4{
+    width: 70%;
+    margin: 0 auto;
+}
+
+// SECTION 5  
+.section-home-5 {
+    background-color: $color-four;
+    padding: 0;
+}  
+.home-portfolio {
+    display: flex;
+}
+.section-5-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-5-text p {
+    width: 70%;
+    margin: 50px 0;
+}
+.section-5-text button {
+    background-color: $color-two;
+    border: none;
+    text-transform: uppercase;
+    width: 20%;
+    padding: 10px 0;
+}
+.home-portfolio img {
+    width: 50%;
+}
+// FOOTER 
+footer {
+    background-color: $color-one;
+}
+.footer-section {
+
+    border-bottom: 1px solid rgba(246, 246, 246, 0.3);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h2,
+.footer a,
+.footer p,
+.social {
+    color: $color-two;
+}
+// contact us
+.footer-contact h2 {
+    margin: 10px 10px 30px 0;
+}
+.footer-contact {
+    text-align: left;
+}
+.footer-contact li {
+    padding: 5px 0;
+}
+.social ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width:30%;
+    margin-top: 30px;
+}
+// recent posts
+.footer-recent-p h2 {
+    margin: 10px 10px 30px 10px;
+}
+.footer-recent-p ul {
+    list-style: disc;
+    color: $color-two;
+}
+.footer-recent-p li{
+    text-align: left;
+    padding: 5px;
+}
+// twitter widget 
+.twitter-w  h2{
+    text-align: right;
+    margin: 10px 0px 30px 10px;
+}
+.twitter-w li{
+    padding: 5px;
+}
+.twitter-w form {
+    padding: 20px 0 20px 20px;
+}
+.twitter-w input[type="email"] {
+    color:rgba(51, 51, 51, 0.7);
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 0.7rem;
+    border-radius: 0;
+    border: 1px solid transparent;
+}
+.twitter-w button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 0.7rem;
+    border-radius: 0;
+    background-color: $color-four;
+    border: 1px solid transparent;
+}
+.twitter-w button::-moz-focus-inner { 
+    border: 0;
+}
+
+footer h4 {
+    color: $color-two;
+
+
 }

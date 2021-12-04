@@ -15,12 +15,28 @@ nav{
 }
 
 nav li {
-    margin: 0 10px;
+    margin: 20px 10px;
 }
 
 nav a {
     color: $color-one;
 }
 nav i {
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+.shopping-cart-item {
+    display: flex;
+    position: relative;
+    right: 150px;
+    top: 15px;
+}
+.shopping-cart-item i {
+    color:$color-four;
+}
+.shopping-cart-item p {
+    color: $color-one;
+    z-index: 1;
+    position: relative;
+    right: 16px;
+    top: 3px;
 }

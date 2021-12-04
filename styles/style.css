@@ -268,6 +268,10 @@ h2 {
   margin: 10px;
 }
 
+h4 {
+  padding: 20px 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -302,7 +306,7 @@ nav {
 }
 
 nav li {
-  margin: 0 10px;
+  margin: 20px 10px;
 }
 
 nav a {
@@ -310,7 +314,28 @@ nav a {
 }
 
 nav i {
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.shopping-cart-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  right: 150px;
+  top: 15px;
+}
+
+.shopping-cart-item i {
+  color: #C3DAB7;
+}
+
+.shopping-cart-item p {
+  color: #333333;
+  z-index: 1;
+  position: relative;
+  right: 16px;
+  top: 3px;
 }
 
 header {
@@ -344,20 +369,28 @@ span.line {
   background-color: #C3DAB7;
 }
 
+.image-container-home {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px auto;
+}
+
 img[src="./assets/home-circle-text.png"] {
   position: relative;
-  left: 200px;
   z-index: 1;
-  width: 200px;
-  height: 200px;
-  top: 60px;
+  width: 25%;
+  bottom: 220px;
 }
 
 img[src="./assets/home-2.jpeg"] {
-  width: 50%;
+  width: 100%;
   position: relative;
-  left: 300px;
-  bottom: 60px;
+  right: 100px;
 }
 
 .section-home-1-container {
@@ -491,6 +524,10 @@ img[src="./assets/home-2.jpeg"] {
   padding: 0 0 80px 0;
 }
 
+.section-four h3 {
+  margin-top: 50px;
+}
+
 .section-4-line {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,13 +559,169 @@ img[src="./assets/home-2.jpeg"] {
 }
 
 .team-container li {
-  width: calc(100% / 5 - 20px);
-  margin: 0 10px;
+  width: calc(100% / 5 - 2px);
+  margin: 10px;
 }
 
 .team-container li:first-of-type {
   text-align: left;
-  width: 50%;
+  width: 40%;
   background-color: #F6F6F6;
   padding: 50px 10px 30px 10px;
+}
+
+.team-container li:last-of-type {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.team-container li:last-of-type h4 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-home-5 {
+  background-color: #C3DAB7;
+  padding: 0;
+}
+
+.home-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-5-text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-5-text p {
+  width: 70%;
+  margin: 50px 0;
+}
+
+.section-5-text button {
+  background-color: #FFFFFF;
+  border: none;
+  text-transform: uppercase;
+  width: 20%;
+  padding: 10px 0;
+}
+
+.home-portfolio img {
+  width: 50%;
+}
+
+footer {
+  background-color: #333333;
+}
+
+.footer-section {
+  border-bottom: 1px solid rgba(246, 246, 246, 0.3);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer h2,
+.footer a,
+.footer p,
+.social {
+  color: #FFFFFF;
+}
+
+.footer-contact h2 {
+  margin: 10px 10px 30px 0;
+}
+
+.footer-contact {
+  text-align: left;
+}
+
+.footer-contact li {
+  padding: 5px 0;
+}
+
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+  width: 30%;
+  margin-top: 30px;
+}
+
+.footer-recent-p h2 {
+  margin: 10px 10px 30px 10px;
+}
+
+.footer-recent-p ul {
+  list-style: disc;
+  color: #FFFFFF;
+}
+
+.footer-recent-p li {
+  text-align: left;
+  padding: 5px;
+}
+
+.twitter-w h2 {
+  text-align: right;
+  margin: 10px 0px 30px 10px;
+}
+
+.twitter-w li {
+  padding: 5px;
+}
+
+.twitter-w form {
+  padding: 20px 0 20px 20px;
+}
+
+.twitter-w input[type=email] {
+  color: rgba(51, 51, 51, 0.7);
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 0.7rem;
+  border-radius: 0;
+  border: 1px solid transparent;
+}
+
+.twitter-w button {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 0.7rem;
+  border-radius: 0;
+  background-color: #C3DAB7;
+  border: 1px solid transparent;
+}
+
+.twitter-w button::-moz-focus-inner {
+  border: 0;
+}
+
+footer h4 {
+  color: #FFFFFF;
 }
