@@ -1,0 +1,111 @@
+@media (max-width: 1500px) {
+    // HOME PAGE
+    section.section-home-3 {
+        background-image: none;
+    }
+    section.section-home-3 img {
+        display:block;
+    }
+    div.list-wrapper {
+        width:100%;
+        margin: 50px 10px;
+    }
+    div.section-5-text button {
+        width: 30%;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 1000px) {
+    // HOME PAGE
+    div.twitter-w input[type="email"] {
+        padding: 10px 10px;
+    }
+    div.footer {
+        flex-direction: column;
+    }
+    div.footer-contact,
+    div.footer-recent-p,
+    div.twitter-w {
+        margin-bottom: 30px;
+    }
+    div.footer-contact,
+    div.footer-recent-p li,
+    div.twitter-w h2,
+    div.twitter-w p{
+        text-align: center;
+    }
+    div.social ul {
+        width: 50%;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 850px) {
+    // HOME PAGE
+    section {
+        padding: 40px 0;
+    }
+    ul.fa-bars i {
+        display: inline-block;
+    }
+    nav ul {
+        width: 100%;
+    }
+    ul.nav-one,
+    div.nav-text {
+        display:none;
+    }
+    div.line-container  {
+        display: none;
+    }
+    .image-container-home img[src="./assets/home-circle-text.png"] {
+        bottom:150px;
+    }
+    ul.home-section-2-container li {
+        margin: 0 30px;
+    }
+    span.half-line {
+        border-top: 1px solid rgba(51, 51, 51, 0.3);
+        height: 0;
+        width:80px;
+    }
+    div.team-container li {
+        width:calc(100% / 3.5 - 2px);
+    }
+    div.team-container li:first-of-type {
+        width: 90%;
+        padding: 50px 10px 30px 0px;
+    }
+    div.home-portfolio {
+        flex-direction: column;
+    }
+    div.section-5-text,
+    div.home-portfolio img  {
+        width:100%;
+    }
+    div.section-5-text {
+        margin-top: 60px;
+    }
+    
+}
+@media (max-width:600px) {
+    // HOME PAGE
+    .nav-container h1 {
+        font-size: 1.5rem;
+    }
+    .nav-two i {
+        font-size: 1rem;
+    }
+    div.image-container-home img[src="./assets/home-2.jpeg"] {
+        right:50px;
+    }
+    .image-container-home img[src="./assets/home-circle-text.png"] {
+        bottom:100px;
+    }
+    div.list i {
+        font-size:1rem;
+        height:50%;
+    }
+    .list-container h2 {
+        font-size: 0.7rem;
+    }
+}

@@ -2,6 +2,15 @@ $color-one: #333333;
 $color-two: #FFFFFF;
 $color-three: #F6F6F6;
 $color-four: #C3DAB7;
+.fa-bars {
+    display:none;
+}
+.nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 nav{
     display:flex;
@@ -10,10 +19,15 @@ nav{
     width: 100%;
 }
 .nav-one,
-.nav-two {
+.nav-two,
+.nav-text {
     display:flex;
+    width: 100%;
 }
-
+.nav-two,
+.nav-text {
+    justify-content: flex-end;
+}
 nav li {
     margin: 20px 10px;
 }
@@ -27,7 +41,7 @@ nav i {
 .shopping-cart-item {
     display: flex;
     position: relative;
-    right: 150px;
+    right: 20px;
     top: 15px;
 }
 .shopping-cart-item i {
