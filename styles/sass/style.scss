@@ -8,12 +8,13 @@ $color-four: #C3DAB7;
 @import "partials/typography.scss";
 @import "partials/general.scss";
 @import "partials/navigations.scss";
+@import "partials/footer.scss";
 
 
 // HOMEPAGE
 
 // HEADER
-header {
+.home-header {
     background-image: url(../assets/home-1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -87,7 +88,7 @@ img[src="./assets/home-2.jpeg"] {
 
 // SECTION 3 
 .section-home-3 {
-    background-image: url(home-4.jpeg);
+    background-image: url(../assets/home-4.jpeg);
 }
 .section-home-3 img {
     display:none;
@@ -198,86 +199,104 @@ img[src="./assets/home-2.jpeg"] {
 .home-portfolio img {
     width: 50%;
 }
-// FOOTER 
-footer {
-    background-color: $color-one;
-}
-.footer-section {
 
-    border-bottom: 1px solid rgba(246, 246, 246, 0.3);
+// CONTACT PAGE
+.contact-1 {
+    background: url(../assets/contact-1.jpeg);
+    background-size: cover;
 }
-.footer{
+.contact-line-top {
+    border-top: 3px solid $color-one;
+    display:block;
+    width: 40px;
+    position: relative;
+    top:80px;
+}
+.contact-h3 {
+    text-align:left;
+}
+.contact-h3-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 25%;
+    position: relative;
+    top:110px;
 }
-
-.footer h2,
-.footer a,
-.footer p,
-.social {
-    color: $color-two;
+.contact-details {
+    text-align: left;
+    width: 50%;
 }
-// contact us
-.footer-contact h2 {
-    margin: 10px 10px 30px 0;
+.contact-details h2,
+.contact-form h2 {
+    margin: 10px 10px 10px 0;
 }
-.footer-contact {
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+.contact-ways {
     text-align: left;
 }
-.footer-contact li {
+.contact-ways li {
     padding: 5px 0;
 }
-.social ul {
+.contact-ways i {
+    font-size: 1.5rem;
+}
+.contact-ways a {
+    color: rgba(51, 51, 51, 0.5);
+}
+.contact-2,
+.contact-3 {
+    padding-bottom: 0;
+}
+.contact-2-line {
+    display: block;
+    border-left: 2px solid $color-three;
+    height:100%;
+}
+.email a {
+    text-transform: lowercase;
+}
+.contact-form {
+    text-align: left;
+}
+.form-contact {
+    text-align: center;
+    color:rgba(51, 51, 51, 0.7);
+    margin-top: 100px;
+}
+.contact-form-info {
     display: flex;
     justify-content: space-between;
+}
+.contact-form-info input {
+    font-size: 0.7rem;
     width:30%;
+}
+.contact-form-info input[type="email"] {
+    color: black;
+    border-bottom: 2px solid black;
+}
+.contact-form-info input,
+textarea {
+    border-color: transparent;
+    border-bottom: 2px solid $color-three;
+}
+textarea {
     margin-top: 30px;
-}
-// recent posts
-.footer-recent-p h2 {
-    margin: 10px 10px 30px 10px;
-}
-.footer-recent-p ul {
-    list-style: disc;
-    color: $color-two;
-}
-.footer-recent-p li{
-    text-align: left;
-    padding: 5px;
-}
-// twitter widget 
-.twitter-w  h2{
-    text-align: right;
-    margin: 10px 0px 30px 10px;
-}
-.twitter-w li{
-    padding: 5px;
-}
-.twitter-w form {
-    padding: 20px 0 20px 20px;
-}
-.twitter-w input[type="email"] {
-    color:rgba(51, 51, 51, 0.7);
-    display: inline-block;
-    padding: 10px 15px;
+    width:100%;
+    resize: none;
     font-size: 0.7rem;
-    border-radius: 0;
-    border: 1px solid transparent;
 }
-.twitter-w button {
-    display: inline-block;
-    padding: 7px 15px;
-    font-size: 0.7rem;
-    border-radius: 0;
-    background-color: $color-four;
-    border: 1px solid transparent;
-}
-.twitter-w button::-moz-focus-inner { 
-    border: 0;
-}
-
-footer h4 {
-    color: $color-two;
-
-
+.contact-button {
+    display:flex;
+    text-transform: uppercase;
+    background: none;
+    color: $color-one;
+    border-color: transparent;
+    border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+    margin: 40px 0;
 }

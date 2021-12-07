@@ -14,6 +14,9 @@
         width: 30%;
         margin-bottom: 60px;
     }
+
+    
+
 }
 @media (max-width: 1000px) {
     // HOME PAGE
@@ -34,6 +37,9 @@
     div.twitter-w p{
         text-align: center;
     }
+    div.footer-recent-p ul {
+        list-style: none;
+    }
     div.social ul {
         width: 50%;
         margin: 10px auto;
@@ -44,7 +50,7 @@
     section {
         padding: 40px 0;
     }
-    ul.fa-bars i {
+    i.fa-bars  {
         display: inline-block;
     }
     nav ul {
@@ -86,6 +92,23 @@
         margin-top: 60px;
     }
     
+    // CONTACT PAGE 
+    .contact-container {
+        flex-direction: column;
+    }
+    div.contact-ways {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    span.contact-2-line {
+        border-top: 2px solid $color-three;
+        width: 40%;
+        margin: 20px auto;
+    }
+    div.contact-details {
+        text-align: center;
+        width: 100%;
+    }
 }
 @media (max-width:600px) {
     // HOME PAGE
@@ -107,5 +130,25 @@
     }
     .list-container h2 {
         font-size: 0.7rem;
+    }
+
+    // CONTACT PAGE 
+    div.contact-form-info {
+        display: flex;
+        flex-direction: column;
+    }
+    div.contact-form-info input {
+        width: 80%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    textarea {
+        text-align: center;
+    }
+    button.contact-button {
+        margin: 30px auto;
+    }
+    section.contact-3 {
+        padding:0;
     }
 }
