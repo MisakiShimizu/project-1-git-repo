@@ -14,9 +14,6 @@
         width: 30%;
         margin-bottom: 60px;
     }
-
-    
-
 }
 @media (max-width: 1000px) {
     // HOME PAGE
@@ -50,7 +47,7 @@
     section {
         padding: 40px 0;
     }
-    i.fa-bars  {
+    .fa-bars  {
         display: inline-block;
     }
     nav ul {
@@ -109,6 +106,31 @@
         text-align: center;
         width: 100%;
     }
+    // BLOG PAGE
+    .blog-h3 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .blog-info-container {
+        flex-direction: column;
+    }
+    .blog-resize-container {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 70px;
+    }
+    .blog-resize h4,
+    .blog-resize p{
+        font-size: 0.7rem;
+    }
+    .comments {
+        width: 80%;
+        padding: 10px;
+    }
+    .arrow-left img {
+        width: 10%;
+        height: 10%;
+    }
 }
 @media (max-width:600px) {
     // HOME PAGE
@@ -150,5 +172,9 @@
     }
     section.contact-3 {
         padding:0;
+    }
+    // BLOG PAGE
+    .blog-h2 {
+        font-size: 1rem;
     }
 }

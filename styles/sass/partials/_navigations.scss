@@ -31,7 +31,11 @@ nav{
 nav li {
     margin: 20px 10px;
 }
-
+nav li:hover,
+nav li:active {
+    border-bottom: 2px solid $color-four;
+    font-weight: 700;
+}
 nav a {
     color: $color-one;
 }

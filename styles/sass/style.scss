@@ -3,12 +3,14 @@ $color-two: #FFFFFF;
 $color-three: #F6F6F6;
 $color-four: #C3DAB7;
 
-@import "partials/media.scss";
 @import "partials/setup.scss";
 @import "partials/typography.scss";
 @import "partials/general.scss";
 @import "partials/navigations.scss";
 @import "partials/footer.scss";
+@import "partials/blog.scss";
+@import "partials/contact.scss";
+@import "partials/media.scss";
 
 
 // HOMEPAGE
@@ -196,107 +198,12 @@ img[src="./assets/home-2.jpeg"] {
     width: 20%;
     padding: 10px 0;
 }
+.section-5-text button:hover,
+.section-5-text button:active,
+.section-5-text button:focus {
+    border: 3px solid $color-one;
+}
 .home-portfolio img {
     width: 50%;
 }
 
-// CONTACT PAGE
-.contact-1 {
-    background: url(../assets/contact-1.jpeg);
-    background-size: cover;
-}
-.contact-line-top {
-    border-top: 3px solid $color-one;
-    display:block;
-    width: 40px;
-    position: relative;
-    top:80px;
-}
-.contact-h3 {
-    text-align:left;
-}
-.contact-h3-container {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 25%;
-    position: relative;
-    top:110px;
-}
-.contact-details {
-    text-align: left;
-    width: 50%;
-}
-.contact-details h2,
-.contact-form h2 {
-    margin: 10px 10px 10px 0;
-}
-.contact-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 60px 0;
-}
-.contact-ways {
-    text-align: left;
-}
-.contact-ways li {
-    padding: 5px 0;
-}
-.contact-ways i {
-    font-size: 1.5rem;
-}
-.contact-ways a {
-    color: rgba(51, 51, 51, 0.5);
-}
-.contact-2,
-.contact-3 {
-    padding-bottom: 0;
-}
-.contact-2-line {
-    display: block;
-    border-left: 2px solid $color-three;
-    height:100%;
-}
-.email a {
-    text-transform: lowercase;
-}
-.contact-form {
-    text-align: left;
-}
-.form-contact {
-    text-align: center;
-    color:rgba(51, 51, 51, 0.7);
-    margin-top: 100px;
-}
-.contact-form-info {
-    display: flex;
-    justify-content: space-between;
-}
-.contact-form-info input {
-    font-size: 0.7rem;
-    width:30%;
-}
-.contact-form-info input[type="email"] {
-    color: black;
-    border-bottom: 2px solid black;
-}
-.contact-form-info input,
-textarea {
-    border-color: transparent;
-    border-bottom: 2px solid $color-three;
-}
-textarea {
-    margin-top: 30px;
-    width:100%;
-    resize: none;
-    font-size: 0.7rem;
-}
-.contact-button {
-    display:flex;
-    text-transform: uppercase;
-    background: none;
-    color: $color-one;
-    border-color: transparent;
-    border-bottom: 2px solid rgba(51, 51, 51, 0.5);
-    margin: 40px 0;
-}
