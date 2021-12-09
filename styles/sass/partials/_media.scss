@@ -99,6 +99,16 @@
     .contact-container {
         flex-direction: column;
     }
+    .contact-line-top {
+        top: 40px;
+    }
+    .contact-h3-container {
+        width: 100%;
+        top: 50px;
+    }
+    .contact-details {
+        width: 80%;
+    }
     .contact-ways {
         text-align: center;
         margin-bottom: 10px;
@@ -124,6 +134,8 @@
         display: flex;
         justify-content: flex-start;
         padding-left: 70px;
+        margin-left: 0;
+        width: 90%;
     }
     .blog-resize h4,
     .blog-resize p{
@@ -182,5 +194,8 @@
     // BLOG PAGE
     .blog-h2 {
         font-size: 1rem;
+    }
+    .blog-resize-container {
+        padding-left: 0;
     }
 }

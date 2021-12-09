@@ -7,6 +7,7 @@ $color-four: #C3DAB7;
 .contact-1 {
     background: url(../assets/contact-1.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .contact-line-top {
     border-top: 3px solid $color-one;
