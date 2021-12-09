@@ -963,7 +963,7 @@ img[src="./assets/home-2.jpeg"] {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin: 200px 10px 50px 0;
+  margin: 120px 10px 50px 0;
 }
 
 .list {
@@ -971,7 +971,7 @@ img[src="./assets/home-2.jpeg"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5px;
+  margin: 10px 5px 50px 10px;
 }
 
 .list-container {
