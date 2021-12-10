@@ -25,6 +25,9 @@
 }
 @media (max-width: 1000px) {
     // HOME PAGE
+    .team-container li:first-of-type {
+        padding: 10px 10px 5px 10px ;
+    }
     .twitter-w input[type="email"] {
         padding: 10px 10px;
     }
