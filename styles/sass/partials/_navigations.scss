@@ -2,9 +2,6 @@ $color-one: #333333;
 $color-two: #FFFFFF;
 $color-three: #F6F6F6;
 $color-four: #C3DAB7;
-.fa-bars {
-    display:none;
-}
 .nav {
     display:flex;
     justify-content: space-between;
@@ -57,4 +54,20 @@ nav i {
     position: relative;
     right: 16px;
     top: 3px;
+}
+#mobile-button {
+    background-color: $color-two;
+    border: none;
+    margin-right: 10px;
+}
+#mobile-button,
+.mobile-nav {
+    display:none;
+}
+.mobile-ul {
+    text-align: left;
+    background-color: rgba(246,246,246);
+}
+.show {
+    display: block;
 }

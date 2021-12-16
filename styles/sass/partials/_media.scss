@@ -58,15 +58,28 @@
     section {
         padding: 40px 0;
     }
-    .fa-bars  {
-        display: inline-block;
+    #mobile-button {
+        display: block;
     }
     nav ul {
         width: 100%;
     }
     .nav-one,
     .nav-text {
-        display:none;
+        display: none;
+    }
+    .mobile-menu-hidden {
+        display: flex;
+        flex-direction: row;
+        position:relative;
+        left:0;
+    }
+    .mobile-menu-hidden li {
+        margin-left: 10px;
+    }
+    .nav-one a,
+    .nav-text a {
+        display: block;
     }
     .section-home-1:before {
         display: none;

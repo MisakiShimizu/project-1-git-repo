@@ -335,10 +335,6 @@ i:hover {
   cursor: pointer;
 }
 
-.fa-bars {
-  display: none;
-}
-
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -418,6 +414,26 @@ nav i {
   position: relative;
   right: 16px;
   top: 3px;
+}
+
+#mobile-button {
+  background-color: #FFFFFF;
+  border: none;
+  margin-right: 10px;
+}
+
+#mobile-button,
+.mobile-nav {
+  display: none;
+}
+
+.mobile-ul {
+  text-align: left;
+  background-color: #f6f6f6;
+}
+
+.show {
+  display: block;
 }
 
 footer {
@@ -1192,8 +1208,8 @@ img[src="./assets/home-2.jpeg"] {
     padding: 40px 0;
   }
 
-  .fa-bars {
-    display: inline-block;
+  #mobile-button {
+    display: block;
   }
 
   nav ul {
@@ -1203,6 +1219,27 @@ img[src="./assets/home-2.jpeg"] {
   .nav-one,
 .nav-text {
     display: none;
+  }
+
+  .mobile-menu-hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    left: 0;
+  }
+
+  .mobile-menu-hidden li {
+    margin-left: 10px;
+  }
+
+  .nav-one a,
+.nav-text a {
+    display: block;
   }
 
   .section-home-1:before {
